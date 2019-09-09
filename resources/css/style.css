@@ -1,0 +1,279 @@
+<style>
+header {
+background-color: #381e0e;
+}
+
+body {
+background-color: white;
+}
+
+img {
+    display: block;
+    margin-left: 50;
+    margin-right: 50;
+    width: 20%;
+}
+
+h2 {
+color: black;
+font-family: "Tahoma";
+font-size: 10;
+text-align: right;
+}
+
+h3 {
+color: black;
+font-family: "Tahoma";
+font-size: 20;
+}
+
+h4 {
+color: black;
+font-family: "Tahoma";
+font-size: 20;
+}
+
+h5 {
+color: black;
+font-family: "Tahoma";
+font-size: 20;
+}
+
+a:link {
+background-color: #75797F;
+padding: 8px 12px;
+text-align: center;
+text-decoration: none;
+font-family: "Tahoma";
+display: block;
+color: #FBFCFF;
+}
+
+a:hover, a:active {
+background-color: #294C7F;
+}
+
+a:visited {
+color: #FBFCFF;
+}
+
+form {
+color: black;
+font-family: "Tahoma";
+}
+
+/* Style the Google Login section */
+.g-signin2 {
+    padding: 2px;
+}
+
+/* Style the tab */
+.maintab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FBFCFF;
+}
+
+#state {
+   border-bottom: 4px solid #a58329;
+}
+
+.subtab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FBFCFF;
+}
+
+/* Style the buttons that are used to open the tab content */
+#logout {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 13px;
+    color: white;
+}
+
+#logout:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+#appdis, #addrem, #login {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 9px;
+    color: white;
+}
+
+#appdis:hover, #addrem:hover, #login:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+#edit, #export_button, #back, #submit {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 6px 10px;
+    color: white;
+}
+
+#edit:hover, #export_button:hover, #back:hover, #submit:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+.maintab button {
+    background-color: #FBFCFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.subtab button {
+    background-color: #FBFCFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.maintab button:hover {
+    background-color: #381e0e;
+	color:#FBFCFF;
+}
+
+.subtab button:hover {
+    background-color: #613318;
+	color:#FBFCFF;
+}
+
+/* Create an active/current tablink class */
+.maintab button.active {
+    background-color: #381e0e;
+        color:#FBFCFF;
+}
+
+.subtab button.active {
+    background-color: #613318;
+        color:#FBFCFF;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #294C7F;*/
+    border-top: none;
+}
+
+/* Style the tab content */
+.subtabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #294C7F;*/
+    border-top: none;
+}
+
+.maintab:before,
+.maintab:after {
+  content: "";
+  display: table;
+}
+.maintabafter {
+  clear: both;
+}
+.maintab {
+  clear: both;
+  *zoom: 1;
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+/* end of tabs format*/
+
+/* listed schools links*/
+.listedschools{
+
+background-color: #613318;
+padding: 6px 10px;
+text-align: center;
+text-decoration: none;
+font-family: "Tahoma";
+display: block;
+color: #FBFCFF;
+}
+
+.listedschools:hover, .listedschools:active {
+background-color:  #381e0e;
+}
+
+.listedschools:visited {
+color: #FBFCFF;
+}
+
+.schoolsearch{
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*format the general school info preview */
+.mapaside{
+position: absolute;
+ top: 100px;  
+ right: -450;
+}
+
+.infoaside{
+position: absolute;
+    /*top: 100px;
+    left: 0;*/
+    margin: 0 1.5%;
+  width: 600px;
+}
+.popsection {
+  float: left;
+  margin: 0 1.5%;
+  width: 400px;
+}
+/*table format*/
+table {
+    font-family: Tahoma;
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px;
+}
+
+td, th {
+    border: 0px;
+    text-align: left;
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+

@@ -1,0 +1,6 @@
+# omit client use case information and security files for public repo
+
+/resources/config
+lhsd_sql_dump.sql
+security.php
+system.php

@@ -1,0 +1,63 @@
+<style>
+
+#addrem {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 9px;
+    color: white;
+}
+
+#addrem:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+#continue {
+   background-color: #613318;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   padding: 5px 9px;
+}
+
+#continue:hover {
+   background-color: #381e0e;
+   color: white;
+}
+
+button, #submit {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px 16px;
+    color: white;
+}
+
+button:hover, #submit:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+
+/* Table format */
+table {
+    font-family: Tahoma;
+    border-collapse: collapse;
+    width: 65%;
+    border: 0px;
+}
+
+td, th {
+    border: 0px;
+    text-align: left;
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>

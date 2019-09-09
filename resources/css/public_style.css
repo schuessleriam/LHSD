@@ -1,0 +1,46 @@
+<style>
+
+#state {
+   color: black;
+   border-bottom: 4px solid #a58329;
+}
+
+a {
+   background-color: #613318;
+   padding: 8px 12px;
+   text-align: center;
+   text-decoration: none;
+   font-family: "Tahoma";
+   display: block;
+   color: #FBFCFF;
+   cursor: pointer;
+}
+
+a:hover {
+   background-color: #381e0e;
+   color: white;
+}
+
+a:nth-child(even) {
+    background-color: #dddddd;
+}
+
+button, #submit {
+    background-color: #613318;
+    float: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px 16px;
+    color: white;
+}
+
+button:hover, #submit:hover {
+    background-color: #381e0e;
+    color:#FBFCFF;
+}
+
+aside {
+  border-top: 4px solid #a58329;
+}
+
+</style>
