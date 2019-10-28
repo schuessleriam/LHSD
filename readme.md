@@ -1,7 +1,7 @@
 
 This web app was created using a Linux - Apache - MySQL - PHP stack, with the help of JavaScript, including jQuery (Ajax). The application was built for the office of church relations to better handle their high school directory, at all levels, by creating a single source of truth for all forms and publications of the directory. 
 
-The publically viewable portion of this application can be found at: https://www.valpo.edu/church-relations/lhs-directory/
+The publicly viewable portion of this application can be found at: https://www.valpo.edu/church-relations/lhs-directory/
 
 Project Symposium link: https://scholar.valpo.edu/cus/688/
 
